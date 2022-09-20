@@ -17,7 +17,7 @@ body {
 
 /* 1 - Header */
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #202936;
     display: flex;
     color: white;
@@ -33,7 +33,7 @@ body {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -71,6 +71,7 @@ body {
     color: white;
     border: none;
     border-radius: 6px;
+    font-size: 15px;
 }
 
 
@@ -87,7 +88,8 @@ body {
 
 .info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 50px;
     margin-bottom: 100px;
 }
 
@@ -109,7 +111,7 @@ body {
     flex-direction: column;
     padding: 85px 280px;
     background: #e5e7eb;
-    font-size: 24px;
+    font-size: 36px;
     font-style: italic;
     color: #1f2937;
     font-weight: 200;
@@ -117,7 +119,9 @@ body {
 
 .quote p {
     align-self: flex-end;
-    font-style: bold;
+    font-weight: 500;
+    font-size: 24px;
+    font-style:normal;
 }
 
 /* 5 - Call to action */
@@ -131,7 +135,7 @@ body {
 .blue-box {
     background: #3882f6;
     flex-basis: 700px;
-    padding: 40px 110px;
+    padding: 40px 123px;
     display: flex;
     border-radius: 8px;
     justify-content: space-between;
@@ -152,4 +156,11 @@ body {
     border: white 2px solid;
     padding: 8px 28px;
     font-weight: 500;
+}
+
+/* 6 - Footer */
+.footer {
+    justify-content: center;
+    padding: 35px;
+    font-weight: 200;
 }
