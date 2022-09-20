@@ -1,5 +1,5 @@
 * {
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -13,6 +13,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+/* 1 - Header */
 
 .header, .hero {
     background-color: #202936;
@@ -40,11 +43,12 @@ body {
     color: #c9cbcf;
 }
 
+/* 2 - Hero */
+
 .hero {
-    align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 100px;
     gap: 24px;
 }
 
@@ -70,6 +74,82 @@ body {
 }
 
 
+.hero-right img {
+    height: 100%;
+}
+
+/* 3 - Info */
+
+.info-header {
+    text-align: center;
+    margin: 50px;
+}
+
 .info {
     display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:200px
+}
+
+.info-card img {
+    max-width: 200px;
+}
+
+/* 4 - Quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 85px 280px;
+    background: #e5e7eb;
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-style: bold;
+}
+
+/* 5 - Call to action */
+.call-to-action {
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    color: white;
+}
+
+.blue-box {
+    background: #3882f6;
+    flex-basis: 700px;
+    padding: 40px 110px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.call-to-action h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.call-to-action p {
+    font-weight: 300;
+    margin: 0;
+}
+
+.call-to-action button {
+    border: white 2px solid;
+    padding: 8px 28px;
+    font-weight: 500;
 }
